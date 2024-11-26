@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces e Sabores</title>
+    <style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        body {
+            font-family: Sour Gummy, sans-serif;
+            font-optical-sizing: auto;
+            font-weight: <weight>;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #9817a1;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #8e1bae;
+        }
+
+        .banner {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .banner img {
+            max-width: 05%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+
+        .item {
+            background-color: white;
+            width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .item img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .item h3 {
+            padding: 10px;
+            background-color: #5d1594;
+            color: white;
+            margin: 0;
+        }
+
+        .item p {
+            padding: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #831bcd;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Doces e Sabores</h1>
+        <p>Os melhores doces e salgados da cidade!</p>
+    </header>
+
+    <nav>
+        <a href="file:///C:/Users/mathe/OneDrive/Documentos/Trabalho%20de%20jo%C3%A3o/HOME.html">HOME</a>
+        <a href="file:///C:/Users/mathe/OneDrive/Documentos/Trabalho%20de%20jo%C3%A3o/DOCES.html">DOCES</a>
+        <a href="file:///C:/Users/mathe/OneDrive/Documentos/Trabalho%20de%20jo%C3%A3o/SALGADOS.html">SALGADOS</a>
+        <a href="file:///C:/Users/mathe/OneDrive/Documentos/Trabalho%20de%20jo%C3%A3o/LOGIN.html">LOGIN</a>
+        </nav>
+
+    <section id="doces">
+        <h2>Doces</h2>
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY732tGKMvwqZOR6-tIxEi1Yp3I5jT-QkLag&s" alt="Brigadeiro">
+            <h3>Brigadeiro</h3>
+            <p>Delicioso brigadeiro de chocolate com granulado.</p>
+        </div>
+        <div class="item">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPOONacy8ZILKvobg3I7Sy4qrhvBuqtFRaBg&s" alt="Beijinho">
+            <h3>Beijinho</h3>
+            <p>Beijinho de coco com açúcar cristal e cravinho.</p>
+        </div>
+        <div class="item">
+            <img src="https://lh5.googleusercontent.com/proxy/swFui84LWTO1ieHXc7ZZtt2FwBt8_csaXdqeCp2WbszcN6tZ0PYH1HGVCnPXt4bzjwdKaZ575bfZtwisgYayhGsXpvfWDKDTcGXOrR6f9BH5WFC1ILk" alt="Beijinho">
+            <h3>Surpresa de Morango</h3>
+            <p>Morango coberto com uma casquinha do chocolate e creme.</p>
+        </div>
+    </section>
+
+    <section id="salgados">
+        <h2>Salgados</h2>
+        <div class="item">
+            <img src="https://storage.needpix.com/rsynced_images/coxinha-4161592_1280.jpg" alt="Coxinha">
+            <h3>Coxinha</h3>
+            <p>Tradicional coxinha de frango com catupiry.</p>
+        </div>
+        <div class="item">
+            <img src="https://s2-receitas.glbimg.com/oHkhSEk-5FlR1sD8Av7TsnF9Wcs=/0x0:1200x675/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2024/h/3/g8VLdDRQKLpAXZAE7pWA/quibe-frito-tradicional.jpg" alt="Quibe">
+            <h3>Quibe</h3>
+            <p>Quibe crocante recheado com carne moída temperada.</p>
+        </div>
+        <div class="item">
+            <img src="https://www.saboresajinomoto.com.br/uploads/images/recipes/mini-pastel-de-carne-moida.jpg" alt="Mini pastel de carne">
+            <h3>Mini pastel de carne</h3>
+            <p>Pastel recheado de carne moida</p>
+        </div>
+    </section>
+
+    <footer id="contato">
+        <p>&copy; 2024 Doces e Salgados Delícia | <a href="mailto:contato@docesesalgadosdelicia.com">contato@docesesalgadosdelicia.com</a></p>
+    </footer>
+</body>
+</html>
